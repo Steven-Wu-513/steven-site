@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Steven — 明辨是非，独立思考</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;700&family=Playfair+Display:ital,wght@0,500;0,700;1,500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <!-- 导航 -->
+    <header class="site-header">
+      <a href="/" class="logo">Steven</a>
+      <nav class="site-nav" id="siteNav">
+        <a href="#home" class="active">首页</a>
+        <a href="#blog">文章</a>
+        <a href="#projects">项目</a>
+        <a href="#about">关于</a>
+      </nav>
+      <button class="menu-toggle" id="menuToggle" aria-label="菜单">
+        <span></span><span></span><span></span>
+      </button>
+    </header>
+
+    <!-- 首页 Hero -->
+    <section id="home" class="section hero-section">
+      <div class="hero-grid">
+        <div class="hero-text">
+          <p class="hero-greeting">Hello, 我是</p>
+          <h1 class="hero-name">Steven</h1>
+          <p class="hero-role">美股交易者 · 加密货币投资者 · 区块链研究员</p>
+          <p class="hero-motto">「 明辨是非，独立思考 」</p>
+          <p class="hero-desc">
+            专注全球金融市场，横跨美股与加密货币两大领域。
+            坚信真正的投资智慧来自于独立判断，而非盲从权威。
+          </p>
+          <div class="hero-actions">
+            <a href="#blog" class="btn-primary">阅读文章</a>
+            <a href="#about" class="btn-outline">关于我</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-orb"></div>
+          <div class="hero-ring"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 技能标签 -->
+    <section class="section skills-section">
+      <h2 class="section-title">专注领域</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-icon">📈</div>
+          <h3>美股市场</h3>
+          <p>深度研究美股上市公司，基本面分析与技术面结合，把握市场趋势</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">₿</div>
+          <h3>加密货币</h3>
+          <p>比特币、以太坊等主流数字资产交易，链上数据分析</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">⛓️</div>
+          <h3>区块链技术</h3>
+          <p>研究 Layer1/Layer2 扩容方案、DeFi 协议、Web3 基础设施</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">📊</div>
+          <h3>宏观分析</h3>
+          <p>全球宏观经济与货币政策研判，跨资产配置策略</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 最新文章 -->
+    <section id="blog" class="section blog-section">
+      <div class="section-header">
+        <h2 class="section-title">最新文章</h2>
+        <a href="blog.html" class="view-all">查看全部 →</a>
+      </div>
+      <div class="post-grid" id="recentPosts"></div>
+    </section>
+
+    <!-- 项目展示 -->
+    <section id="projects" class="section projects-section">
+      <h2 class="section-title">项目与作品</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-icon">📋</div>
+          <h3 class="project-title">美股财报分析工具</h3>
+          <p class="project-desc">自动抓取并分析美股公司财报数据，生成可视化对比报告，辅助投资决策。</p>
+          <div class="project-tags">
+            <span>Python</span><span>数据可视化</span><span>基本面分析</span>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-icon">🔗</div>
+          <h3 class="project-title">链上数据看板</h3>
+          <p class="project-desc">实时监控主流公链的 TVL、活跃地址、Gas 费用等关键指标，发现早期机会。</p>
+          <div class="project-tags">
+            <span>Web3</span><span>Dune Analytics</span><span>数据看板</span>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-icon">📝</div>
+          <h3 class="project-title">投资研究笔记</h3>
+          <p class="project-desc">持续更新的投资研究公开笔记，涵盖个股深度分析、行业趋势判断与交易复盘。</p>
+          <div class="project-tags">
+            <span>投资研究</span><span>行业分析</span><span>交易复盘</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 关于 -->
+    <section id="about" class="section about-section">
+      <h2 class="section-title">关于我</h2>
+      <div class="about-card">
+        <div class="about-avatar">
+          <div class="avatar-circle">S</div>
+        </div>
+        <h3 class="about-name">Steven</h3>
+        <p class="about-role">美股 & 加密货币交易者</p>
+        <div class="about-motto">「 明辨是非，独立思考 」</div>
+        <div class="about-bio">
+          <p>
+            你好，我是 Steven。我的投资之旅横跨美股与加密货币两大市场。
+          </p>
+          <p>
+            在信息泛滥的时代，「明辨是非，独立思考」是我始终坚持的原则。
+            不盲从权威，不追逐热点，只相信经过自己深度研究后的判断。
+          </p>
+          <p>
+            这个网站记录了我对金融市场、区块链技术以及投资哲学的思考。
+            欢迎交流，共同成长。
+          </p>
+        </div>
+        <div class="about-tags">
+          <span class="tag">#美股</span>
+          <span class="tag">#加密货币</span>
+          <span class="tag">#区块链</span>
+          <span class="tag">#DeFi</span>
+          <span class="tag">#Web3</span>
+          <span class="tag">#宏观分析</span>
+        </div>
+        <div class="about-contact">
+          <a href="mailto:steven@example.com" class="contact-item">
+            <span class="contact-icon">✉️</span> Email
+          </a>
+          <a href="#" class="contact-item">
+            <span class="contact-icon">🐦</span> Twitter
+          </a>
+          <a href="#" class="contact-item">
+            <span class="contact-icon">💻</span> GitHub
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <p>© 2025 Steven · 明辨是非，独立思考</p>
+        <div class="footer-social">
+          <a href="mailto:steven@example.com">Email</a>
+          <a href="#">Twitter</a>
+          <a href="#">GitHub</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="posts.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
